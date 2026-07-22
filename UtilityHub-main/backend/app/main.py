@@ -31,4 +31,4 @@ app.include_router(contact.router, prefix=f"{settings.API_V1_STR}/contact", tags
 
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to UtilityHub AI API Platform Service"}
+    return {"message": "Welcome to UtilityHub Platform Service"}
