@@ -20,7 +20,7 @@ jobs:
         run: docker build -t utilityhub .
 
       - name: Run the container 
-        run: docker run -d -p 8000:8080 --name u-container uu-app
+        run: docker run -d -p 8000:8080 --name app-container utilityhub
 
         
 
